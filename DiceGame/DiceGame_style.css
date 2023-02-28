@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(123, 34, 206, 0.938);
+}
+
+.section_1 {
+  background-color: aqua;
+  width: 380px;
+  height: 580px;
+  left: 90px;
+  padding: 10px;
+  border-radius: 24px;
+  position: fixed;
+  left: 120px;
+  top: 30px;
+}
+
+.section_2 {
+  background-color: rgb(9, 126, 126);
+  width: 380px;
+  height: 580px;
+  left: 90px;
+  padding: 10px;
+  border-radius: 24px;
+  position: fixed;
+  left: 710px;
+  top: 30px;
+  text-align: center;
+}
+
+.btnRollDice {
+  color: crimson;
+  background-color: rgb(215, 219, 212);
+  width: 150px;
+  height: 60px;
+  font-size: large;
+  position: fixed;
+  top: 450px;
+  left: 530px;
+  cursor: pointer;
+  display: block;
+}
+
+.btnHold {
+  color: crimson;
+  background-color: rgb(215, 219, 212);
+  width: 150px;
+  height: 60px;
+  font-size: large;
+  position: fixed;
+  top: 550px;
+  left: 530px;
+  cursor: pointer;
+  display: block;
+}
+
+.btnRepeat {
+  color: crimson;
+  background-color: rgb(215, 219, 212);
+  width: 150px;
+  height: 60px;
+  font-size: large;
+  position: fixed;
+  top: 150px;
+  left: 530px;
+  cursor: pointer;
+}
+
+.layout {
+  background-color: rgb(223, 24, 209);
+
+  width: 100px;
+  height: 100px;
+}
+
+.imgHolder {
+  background-color: rgb(160, 14, 14);
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  left: 510px;
+  top: 250px;
+}
+
+#diceIMG {
+  width: 190px;
+  height: 150px;
+}
+
+.Player_1 {
+  color: black;
+  font-size: xx-large;
+  position: fixed;
+  left: 230px;
+  top: 70px;
+}
+
+.Player_2 {
+  color: gray;
+  font-size: xx-large;
+  position: sticky;
+  right: 12px;
+  top: 70px;
+}
+
+.Player_1_Score {
+  color: tomato;
+  font-size: 75px;
+  position: fixed;
+  left: 280px;
+  top: 120px;
+}
+
+.Player_2_Score {
+  color: rgb(122, 102, 98);
+  font-size: 75px;
+  position: sticky;
+  right: 400px;
+  top: 120px;
+}
+
+.Player1_currentScore {
+  width: 250px;
+  height: 100px;
+  background-color: tomato;
+  text-align: center;
+  color: white;
+  position: sticky;
+  top: 450px;
+  left: 180px;
+}
+
+.Player2_currentScore {
+  width: 250px;
+  height: 100px;
+  background-color: rgb(122, 102, 98);
+  text-align: center;
+  color: gray;
+  position: sticky;
+  top: 450px;
+  left: 780px;
+}
+
+.Player1Score {
+  font-size: 70px;
+}
+
+.Player2Score {
+  font-size: 70px;
+}
